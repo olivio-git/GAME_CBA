@@ -1,5 +1,5 @@
-const request = require("supertest");
-const { describe, it, expect } = require("vitest");
+import request from "supertest";
+import { describe, it, expect } from "vitest";
 
 describe("Server is Ready", () => {
   it("Server port", async () => {

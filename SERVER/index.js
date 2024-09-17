@@ -1,7 +1,7 @@
-const dotenv = require("dotenv");
-const express = require("express");
-const morgan = require("morgan");
-const CreateConnection = require("./src/mongoose");
+import dotenv from "dotenv";
+import express from "express";
+import morgan from "morgan";
+import CreateConnection from "./src/mongoose.js";
 
 dotenv.config();
 
