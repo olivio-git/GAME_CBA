@@ -1,0 +1,55 @@
+/* From Uiverse.io by catraco */ 
+/*------ Settings ------*/
+.containerSound {
+    --color: #a5a5b0;
+    --size: 20px;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    /* position: relative; */
+    cursor: pointer;
+    font-size: var(--size);
+    user-select: none;
+    fill: var(--color);
+  }
+  
+  .containerSound .mute {
+    /* position: absolute; */
+    animation: keyframes-fill .5s;
+  }
+  
+  .containerSound .voice {
+    /* position: absolute; */
+    display: none;
+    animation: keyframes-fill .5s;
+  }
+  
+  /* ------ On check event ------ */
+  .containerSound input:checked ~ .mute {
+    display: none;
+  }
+  
+  .containerSound input:checked ~ .voice {
+    display: block;
+  }
+  
+  /* ------ Hide the default checkbox ------ */
+  .containerSound input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* ------ Animation ------ */
+  @keyframes keyframes-fill {
+    0% {
+      transform: rotate(0deg) scale(0);
+      opacity: 0;
+    }
+  
+    50% {
+      transform: rotate(-10deg) scale(1.2);
+    }
+  }
