@@ -1,0 +1,1 @@
+export type SoundEntity = "on" | "off";
