@@ -1,4 +1,4 @@
-import { FormSchemaFields } from "../../../dominio/interfaces/FormSchemaFields";
+import { FormSchemaFields } from "../../../domain/interfaces/FormSchemaFields";
 
 export const formJoin: FormSchemaFields = {
     username: { label: "Username", name: "userName", type: "text", required: true },

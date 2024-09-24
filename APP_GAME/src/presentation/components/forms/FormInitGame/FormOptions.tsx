@@ -1,5 +1,5 @@
 import React from "react";
-import { FormSchemaFields } from "../../../../dominio/interfaces/FormSchemaFields";
+import { FormSchemaFields } from "../../../../domain/interfaces/FormSchemaFields";
 import { PiPushPinBold } from "react-icons/pi";
 import { ButtonBack } from "../../buttons/ButtonBack";
 import { ButtonSubmit } from "../../buttons/ButtonSubmit";
@@ -13,6 +13,7 @@ interface OptionsProps {
 }
 
 export const FormOptions = ({ fields, options }: OptionsProps) => {
+  
   const handleSubmit = () => {};
   return (
     <React.Fragment>
