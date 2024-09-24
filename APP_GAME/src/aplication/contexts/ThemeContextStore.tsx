@@ -1,6 +1,6 @@
 import { create } from "zustand";
-import { Theme } from "../../dominio/interfaces/ThemeInterface";
-import { ThemeEntity } from "../../dominio/entities/ThemeEntity";
+import { Theme } from "../../domain/interfaces/ThemeInterface";
+import { ThemeEntity } from "../../core/types/Theme";
 
 const useThemeStore = create<Theme>((set) => ({
   theme: (localStorage.getItem("theme")?? "light") as ThemeEntity,

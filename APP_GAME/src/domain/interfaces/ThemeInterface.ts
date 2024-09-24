@@ -1,4 +1,4 @@
-import { ThemeEntity } from "../entities/ThemeEntity";
+import { ThemeEntity } from "../../core/types/Theme";
 
 export interface Theme {
   theme: ThemeEntity;

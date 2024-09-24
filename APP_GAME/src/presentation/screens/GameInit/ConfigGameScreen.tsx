@@ -2,7 +2,7 @@ import React from "react";
 import { WrapperArt } from "../../Wrappers/WrapperArt";
 import { FormOptions } from "../../components/forms/FormInitGame/FormOptions"; 
 import { useParams } from "react-router-dom";
-import { formCreate, formJoin } from "./formTYpes";
+import { formCreate, formJoin } from "./formTypes";
  
 
 export const CreateGameScreen = () => {

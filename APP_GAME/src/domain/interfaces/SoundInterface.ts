@@ -1,4 +1,4 @@
-import { SoundEntity } from "../entities/SoundEntity"; 
+import { SoundEntity } from "../../core/types/Sound"; 
 
 export interface Sound {
   sound: SoundEntity;

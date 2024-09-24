@@ -1,0 +1,1 @@
+export type TypeQuestion = "multiple" | "boolean"  | "text";
