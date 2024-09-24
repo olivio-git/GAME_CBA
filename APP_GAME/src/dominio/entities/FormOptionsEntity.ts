@@ -1,0 +1,1 @@
+export type Options = "create-game" | "use-code";

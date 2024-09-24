@@ -1,8 +1,10 @@
 import Logo from "./logo.png";
 import { motion } from "framer-motion";
 import React from "react";
-import { ButtonCreateGame } from "../../components/buttons/ButtonCreateGame";
+import { ButtonStart } from "../../components/buttons/ButtonStart";
 import { WrapperArt } from "../../Wrappers/WrapperArt";
+import { FaKey, FaPlay } from "react-icons/fa";
+
 const LandinPage = () => {
   return (
     <React.Fragment>
@@ -14,7 +16,18 @@ const LandinPage = () => {
             alt="header"
             className="w-40 rounded h-44 sm:w-60 sm:h-64 drop-shadow-lg"
           />
-          <ButtonCreateGame navigateTo="/create-game" screen="/" />
+          <ButtonStart
+            option="config-game/use-code"
+            screen="/"
+            element={<FaKey className="mr-2 text-white" />}
+            text={"Use code"}
+            />
+          <ButtonStart
+            option="config-game/create-game"
+            screen="/"
+            element={<FaPlay className="mr-2 text-white" />}
+            text={"Create Game"}
+          />
         </div>
       </WrapperArt>
     </React.Fragment>
