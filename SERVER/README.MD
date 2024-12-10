@@ -17,6 +17,7 @@ systemctl status docker
 
 docker volume create mongodb_data
 
+mkdir dockerfile
 
 FROM mongo:latest
 
